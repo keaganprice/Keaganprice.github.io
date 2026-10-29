@@ -1,6 +1,6 @@
 # Keagan Price public website — GitHub Pages export
 
-This folder contains only the public website: Keagan Price's digital business card, the My Companies overview, and the C.C. Services detail page. It includes the portrait, company logo, original QR fallback, CSS, JavaScript, and contact file. No private Command Center code, People records, calendar entries, or database export is included.
+This folder contains only the public website: Keagan Price's digital business card, the My Companies overview, and detail pages for KPO Solutions and C.C. Services. It includes the portrait, company logo, original QR fallback, CSS, JavaScript, and contact file. No private Command Center code, People records, calendar entries, or database export is included.
 
 ## Deploy
 

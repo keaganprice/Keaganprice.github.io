@@ -4,7 +4,7 @@ const saveContact = document.querySelector('a[download][href$=".vcf"]');
 if (saveContact) {
   saveContact.addEventListener('click', (event) => {
     event.preventDefault();
-    const original = `BEGIN:VCARD\r\nVERSION:3.0\r\nN:Price;Keagan;;;\r\nFN:Keagan Price\r\nORG:Keagan Price\r\nTITLE:Founder & CEO\r\nTEL;TYPE=CELL:+19165398334\r\nEMAIL;TYPE=INTERNET,HOME:keaganprice12@gmail.com\r\nURL:${cardUrl}\r\nURL:https://ccservicesofficial.com\r\nX-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/keaganpriceofficial\r\nX-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/keagan-price\r\nX-SOCIALPROFILE;TYPE=tiktok:https://www.tiktok.com/@keagan__price\r\nNOTE:Property Services | Business Development | Strategic Partnerships | Insurance Solutions\r\nEND:VCARD\r\n`;
+    const original = `BEGIN:VCARD\r\nVERSION:3.0\r\nN:Price;Keagan;;;\r\nFN:Keagan Price\r\nORG:Keagan Price\r\nTITLE:Founder & CEO\r\nTEL;TYPE=CELL:+19165398334\r\nEMAIL;TYPE=INTERNET,HOME:keaganprice12@gmail.com\r\nEMAIL;TYPE=WORK:kposolutionsofficial@gmail.com\r\nURL:${cardUrl}\r\nURL:https://kpo.solutions\r\nURL:https://ccservicesofficial.com\r\nX-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/keaganpriceofficial\r\nX-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/keagan-price\r\nX-SOCIALPROFILE;TYPE=tiktok:https://www.tiktok.com/@keagan__price\r\nNOTE:Founder of KPO Solutions and C.C. Services | Business Partnerships\r\nEND:VCARD\r\n`;
     const url = URL.createObjectURL(new Blob([original], { type: 'text/vcard;charset=utf-8' }));
     const link = document.createElement('a');
     link.href = url;
